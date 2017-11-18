@@ -10,6 +10,10 @@
 			View All Course
 		</a>
 		<br/>
+		<a th:if="${#httpServletRequest.isUserInRole('ADMIN')}" href="/student/viewall">
+			ViewAll Student
+		</a>
+		<br/>
 		<a th:if="${#httpServletRequest.isUserInRole('USER')}" href="/student/viewall">
 			ViewAll Student
 		</a>
