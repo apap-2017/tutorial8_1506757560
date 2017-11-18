@@ -1,1 +1,1 @@
-Source Code dari program terdapat pada folder SourceCode
+Source Code dari program terdapat pada folder SourceCode / write up terdapat pada file write_up.pdf
